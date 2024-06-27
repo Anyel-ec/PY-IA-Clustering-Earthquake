@@ -1,17 +1,17 @@
 # Significant Earthquakes, 1965-2016
 
-Este proyecto analiza y visualiza datos de terremotos significativos entre 1965 y 2016 utilizando técnicas de análisis y visualización de datos.
+This project analyzes and visualizes data on significant earthquakes between 1965 and 2016 using data analysis and visualization techniques.
 
-## Autor
+## Author
 **Angel Patiño - KMeans**
 
-## Conjunto de datos
-El conjunto de datos utilizado se puede encontrar en [Kaggle - USGS Earthquake Database](https://www.kaggle.com/datasets/usgs/earthquake-database).
+## Dataset
+The dataset used can be found at [Kaggle - USGS Earthquake Database](https://www.kaggle.com/datasets/usgs/earthquake-database).
 
-## Descripción
-Este código analiza los datos de terremotos para identificar patrones mediante técnicas de agrupación (KMeans). Se incluyen visualizaciones interactivas de los resultados utilizando herramientas como Matplotlib, Plotly, Seaborn y Folium.
+## Description
+This code analyzes earthquake data to identify patterns using clustering techniques (KMeans). It includes interactive visualizations of the results using tools such as Matplotlib, Plotly, Seaborn, and Folium.
 
-## Requisitos
+## Requirements
 - Pandas
 - Matplotlib
 - Plotly
@@ -20,22 +20,22 @@ Este código analiza los datos de terremotos para identificar patrones mediante 
 - Folium
 - Geopy
 
-## Funcionalidades principales
-- Carga de datos desde un archivo CSV.
-- Análisis de valores faltantes en el conjunto de datos.
-- Eliminación de outliers utilizando Z-score.
-- Transformación de datos para mejorar la distribución.
-- Aplicación de KMeans para agrupar terremotos según características geoespaciales y sísmicas.
-- Visualización de resultados mediante gráficos y mapas interactivos.
+## Key Features
+- Loading data from a CSV file.
+- Analysis of missing values in the dataset.
+- Outlier removal using Z-score.
+- Data transformation to improve distribution.
+- Application of KMeans to cluster earthquakes based on geospatial and seismic characteristics.
+- Visualization of results using histograms, scatter plots, and interactive maps.
 
-## Uso
-Para ejecutar el código, asegúrate de tener instaladas todas las bibliotecas mencionadas en los requisitos y ejecuta el script principal.
+## Usage
+To run the code, ensure you have installed all the libraries mentioned in the requirements and execute the main script.
 
-## Ejemplo de salida
-El código produce visualizaciones como histogramas, gráficos de dispersión y mapas interactivos que muestran la distribución geográfica y las características de los terremotos agrupados.
+## Example Output
+The code produces visualizations such as histograms, scatter plots, and interactive maps showing the geographic distribution and characteristics of clustered earthquakes.
 
-## Contribuciones
-Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor envía una solicitud de extracción.
+## Contributions
+Contributions are welcome. If you wish to improve this project, please submit a pull request.
 
-## Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
